@@ -1,0 +1,12 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="67aa141b-e41b-447d-b921-38019e4c7aa8" name="Kiamo" url="http://localhost">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="4591f472-f713-48f9-93ff-96dea2957d31" name="Personal" url="http://localhost:8080">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>

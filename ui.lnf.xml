@@ -1,0 +1,9 @@
+<application>
+  <component name="UISettings">
+    <option name="HIDE_TOOL_STRIPES" value="false" />
+    <option name="SHOW_MEMORY_INDICATOR" value="true" />
+    <option name="SHOW_MAIN_TOOLBAR" value="true" />
+    <option name="EDITOR_TAB_PLACEMENT" value="2" />
+    <option name="MAX_LOOKUP_LIST_HEIGHT" value="15" />
+  </component>
+</application>
