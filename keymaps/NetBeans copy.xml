@@ -1,0 +1,8 @@
+<keymap version="1" name="NetBeans copy" parent="NetBeans 6.5">
+  <action id="ChangesView.Commit">
+    <keyboard-shortcut first-keystroke="ctrl alt c" />
+  </action>
+  <action id="UpdateFiles">
+    <keyboard-shortcut first-keystroke="ctrl alt u" />
+  </action>
+</keymap>
