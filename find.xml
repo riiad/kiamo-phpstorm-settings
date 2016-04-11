@@ -11,7 +11,6 @@
     <option name="SEARCH_SCOPE" value="Project and Libraries" />
     <recentFileMasks>
       <mask>*.properties</mask>
-      <mask>*.html</mask>
       <mask>*.jsp</mask>
       <mask>*.xml</mask>
       <mask>*.java</mask>
@@ -29,6 +28,7 @@
       <mask>*.js</mask>
       <mask>*.yml</mask>
       <mask>*.php</mask>
+      <mask>*.html</mask>
     </recentFileMasks>
   </component>
 </application>
