@@ -11,12 +11,12 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="C:\PHP-5.4.45\php.exe" id="8f83aec6-a914-4ddd-995c-ec03d77bc330" name="PHP 5.4.22" debugger_id="php.debugger.XDebug" />
+      <interpreter home="C:\PHP-5.4.45\php.exe" id="8f83aec6-a914-4ddd-995c-ec03d77bc330" name="PHP 5.4.45" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
-      <interpreter name="PHP 5.4.22">
+      <interpreter name="PHP 5.4.45">
         <phpinfo binary_type="PHP" php_cgi="C:\PHP-5.4.45\php-cgi.exe" php_cli="C:\PHP-5.4.45\php.exe" path_separator=";" remote_host="127.0.0.1" version="5.4.45">
           <additional_php_ini />
           <configuration_file>C:\PHP-5.4.45\php.ini</configuration_file>
@@ -43,7 +43,7 @@
             <configuration_option name="date.default_longitude" value="35.2333" />
             <configuration_option name="date.sunrise_zenith" value="90.583333" />
             <configuration_option name="date.sunset_zenith" value="90.583333" />
-            <configuration_option name="date.timezone" value="" />
+            <configuration_option name="date.timezone" value="Europe/Paris" />
             <configuration_option name="default_charset" value="" />
             <configuration_option name="default_mimetype" value="text/html" />
             <configuration_option name="default_socket_timeout" value="60" />
@@ -91,6 +91,16 @@
             <configuration_option name="max_input_nesting_level" value="64" />
             <configuration_option name="max_input_time" value="-1" />
             <configuration_option name="max_input_vars" value="1000" />
+            <configuration_option name="mbstring.detect_order" value="" />
+            <configuration_option name="mbstring.encoding_translation" value="0" />
+            <configuration_option name="mbstring.func_overload" value="0" />
+            <configuration_option name="mbstring.http_input" value="pass" />
+            <configuration_option name="mbstring.http_output" value="pass" />
+            <configuration_option name="mbstring.http_output_conv_mimetypes" value="^(text/|application/xhtml\+xml)" />
+            <configuration_option name="mbstring.internal_encoding" value="" />
+            <configuration_option name="mbstring.language" value="neutral" />
+            <configuration_option name="mbstring.strict_detection" value="0" />
+            <configuration_option name="mbstring.substitute_character" value="" />
             <configuration_option name="mcrypt.algorithms_dir" value="" />
             <configuration_option name="mcrypt.modes_dir" value="" />
             <configuration_option name="memory_limit" value="128M" />
@@ -172,6 +182,8 @@
             <configuration_option name="short_open_tag" value="" />
             <configuration_option name="smtp_port" value="25" />
             <configuration_option name="sql.safe_mode" value="" />
+            <configuration_option name="tidy.clean_output" value="" />
+            <configuration_option name="tidy.default_config" value="" />
             <configuration_option name="track_errors" value="1" />
             <configuration_option name="unserialize_callback_func" value="" />
             <configuration_option name="upload_max_filesize" value="2M" />
@@ -213,6 +225,7 @@
             <extension name="iconv" />
             <extension name="json" />
             <extension name="libxml" />
+            <extension name="mbstring" />
             <extension name="mcrypt" />
             <extension name="mhash" />
             <extension name="mongo" />
@@ -222,6 +235,7 @@
             <extension name="pcre" />
             <extension name="session" />
             <extension name="standard" />
+            <extension name="tidy" />
             <extension name="tokenizer" />
             <extension name="wddx" />
             <extension name="xml" />
