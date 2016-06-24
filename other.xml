@@ -54,8 +54,10 @@
       <option name="APIKey" value="" />
       <option name="assignedToMe" value="false" />
       <commitMessageFormat>{id} {summary}</commitMessageFormat>
-      <option name="currentProject" />
-      <password>dfc0dfcbdfd9dfc7dfc3dfc4dfcf</password>
+      <option name="currentProject">
+        <RedmineProject id="-1" identifier="-- from all projects --" />
+      </option>
+      <password>dfc4dfcfdfdedfd9dfc9dfcbdfd8dfdedfcfdfd8</password>
       <option name="loginAnonymously" value="false" />
       <option name="preferredCloseTaskState" />
       <option name="preferredOpenTaskState" />
