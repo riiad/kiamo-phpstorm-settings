@@ -7,6 +7,9 @@
       <webServer id="4591f472-f713-48f9-93ff-96dea2957d31" name="Personal" url="http://localhost:8080">
         <fileTransfer accessType="LOCAL" />
       </webServer>
+      <webServer id="6c96e871-b204-4c27-b262-c7537d31a269" name="conv2pdf" url="http://conv2pdf.app:8080">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
