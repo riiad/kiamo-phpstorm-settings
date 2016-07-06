@@ -11,19 +11,19 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="C:\PHP-5.4.45\php.exe" id="8f83aec6-a914-4ddd-995c-ec03d77bc330" name="PHP 5.4.45" debugger_id="php.debugger.XDebug" />
+      <interpreter home="C:\Repository\kiamo\trunk\setup\kiamo_data\bin\Apache\PHP\php.exe" id="8f83aec6-a914-4ddd-995c-ec03d77bc330" name="PHP 5.4.45" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 5.4.45">
-        <phpinfo binary_type="PHP" php_cgi="C:\PHP-5.4.45\php-cgi.exe" php_cli="C:\PHP-5.4.45\php.exe" path_separator=";" remote_host="127.0.0.1" version="5.4.45">
+        <phpinfo binary_type="PHP" php_cgi="C:\Repository\kiamo\trunk\setup\kiamo_data\bin\Apache\PHP\php-cgi.exe" php_cli="C:\Repository\kiamo\trunk\setup\kiamo_data\bin\Apache\PHP\php.exe" path_separator=";" remote_host="127.0.0.1" version="5.6.22">
           <additional_php_ini />
-          <configuration_file>C:\PHP-5.4.45\php.ini</configuration_file>
+          <configuration_file>C:\Repository\kiamo\trunk\setup\kiamo_data\bin\Apache\PHP\php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
             <configuration_option name="allow_url_fopen" value="1" />
-            <configuration_option name="allow_url_include" value="" />
+            <configuration_option name="allow_url_include" value="1" />
             <configuration_option name="always_populate_raw_post_data" value="0" />
             <configuration_option name="arg_separator.input" value="&amp;" />
             <configuration_option name="arg_separator.output" value="&amp;" />
@@ -44,13 +44,13 @@
             <configuration_option name="date.sunrise_zenith" value="90.583333" />
             <configuration_option name="date.sunset_zenith" value="90.583333" />
             <configuration_option name="date.timezone" value="Europe/Paris" />
-            <configuration_option name="default_charset" value="" />
+            <configuration_option name="default_charset" value="UTF-8" />
             <configuration_option name="default_mimetype" value="text/html" />
             <configuration_option name="default_socket_timeout" value="60" />
             <configuration_option name="disable_classes" value="" />
             <configuration_option name="disable_functions" value="" />
             <configuration_option name="display_errors" value="1" />
-            <configuration_option name="display_startup_errors" value="1" />
+            <configuration_option name="display_startup_errors" value="" />
             <configuration_option name="doc_root" value="" />
             <configuration_option name="docref_ext" value="" />
             <configuration_option name="docref_root" value="" />
@@ -62,7 +62,7 @@
             <configuration_option name="error_reporting" value="32767" />
             <configuration_option name="exit_on_timeout" value="0" />
             <configuration_option name="expose_php" value="1" />
-            <configuration_option name="extension_dir" value="ext" />
+            <configuration_option name="extension_dir" value="%KIAMODIR%bin\Apache\PHP\ext" />
             <configuration_option name="file_uploads" value="1" />
             <configuration_option name="filter.default" value="unsafe_raw" />
             <configuration_option name="filter.default_flags" value="" />
@@ -73,14 +73,16 @@
             <configuration_option name="highlight.keyword" value="#007700" />
             <configuration_option name="highlight.string" value="#DD0000" />
             <configuration_option name="html_errors" value="0" />
-            <configuration_option name="iconv.input_encoding" value="ISO-8859-1" />
-            <configuration_option name="iconv.internal_encoding" value="ISO-8859-1" />
-            <configuration_option name="iconv.output_encoding" value="ISO-8859-1" />
+            <configuration_option name="iconv.input_encoding" value="" />
+            <configuration_option name="iconv.internal_encoding" value="" />
+            <configuration_option name="iconv.output_encoding" value="" />
             <configuration_option name="ignore_repeated_errors" value="" />
             <configuration_option name="ignore_repeated_source" value="" />
             <configuration_option name="ignore_user_abort" value="0" />
             <configuration_option name="implicit_flush" value="1" />
             <configuration_option name="include_path" value=".;C:\php\pear" />
+            <configuration_option name="input_encoding" value="" />
+            <configuration_option name="internal_encoding" value="" />
             <configuration_option name="log_errors" value="1" />
             <configuration_option name="log_errors_max_len" value="1024" />
             <configuration_option name="mail.add_x_header" value="1" />
@@ -90,37 +92,21 @@
             <configuration_option name="max_file_uploads" value="20" />
             <configuration_option name="max_input_nesting_level" value="64" />
             <configuration_option name="max_input_time" value="-1" />
-            <configuration_option name="max_input_vars" value="1000" />
-            <configuration_option name="mbstring.detect_order" value="" />
-            <configuration_option name="mbstring.encoding_translation" value="0" />
-            <configuration_option name="mbstring.func_overload" value="0" />
-            <configuration_option name="mbstring.http_input" value="pass" />
-            <configuration_option name="mbstring.http_output" value="pass" />
-            <configuration_option name="mbstring.http_output_conv_mimetypes" value="^(text/|application/xhtml\+xml)" />
-            <configuration_option name="mbstring.internal_encoding" value="" />
-            <configuration_option name="mbstring.language" value="neutral" />
-            <configuration_option name="mbstring.strict_detection" value="0" />
-            <configuration_option name="mbstring.substitute_character" value="" />
+            <configuration_option name="max_input_vars" value="100000" />
             <configuration_option name="mcrypt.algorithms_dir" value="" />
             <configuration_option name="mcrypt.modes_dir" value="" />
-            <configuration_option name="memory_limit" value="128M" />
-            <configuration_option name="mongo.allow_empty_keys" value="0" />
-            <configuration_option name="mongo.chunk_size" value="261120" />
-            <configuration_option name="mongo.cmd" value="$" />
-            <configuration_option name="mongo.default_host" value="localhost" />
-            <configuration_option name="mongo.default_port" value="27017" />
-            <configuration_option name="mongo.is_master_interval" value="15" />
-            <configuration_option name="mongo.long_as_object" value="0" />
-            <configuration_option name="mongo.native_long" value="0" />
-            <configuration_option name="mongo.ping_interval" value="5" />
-            <configuration_option name="mysqlnd.collect_memory_statistics" value="1" />
+            <configuration_option name="memory_limit" value="256M" />
+            <configuration_option name="mysqlnd.collect_memory_statistics" value="" />
             <configuration_option name="mysqlnd.collect_statistics" value="1" />
             <configuration_option name="mysqlnd.debug" value="" />
+            <configuration_option name="mysqlnd.fetch_data_copy" value="0" />
             <configuration_option name="mysqlnd.log_mask" value="0" />
             <configuration_option name="mysqlnd.mempool_default_size" value="16000" />
             <configuration_option name="mysqlnd.net_cmd_buffer_size" value="4096" />
             <configuration_option name="mysqlnd.net_read_buffer_size" value="32768" />
             <configuration_option name="mysqlnd.net_read_timeout" value="31536000" />
+            <configuration_option name="mysqlnd.sha256_server_public_key" value="" />
+            <configuration_option name="mysqlnd.trace_alloc" value="" />
             <configuration_option name="odbc.allow_persistent" value="1" />
             <configuration_option name="odbc.check_persistent" value="1" />
             <configuration_option name="odbc.default_cursortype" value="3" />
@@ -133,13 +119,14 @@
             <configuration_option name="odbc.max_persistent" value="-1" />
             <configuration_option name="open_basedir" value="" />
             <configuration_option name="output_buffering" value="0" />
+            <configuration_option name="output_encoding" value="" />
             <configuration_option name="output_handler" value="" />
             <configuration_option name="pcre.backtrack_limit" value="1000000" />
             <configuration_option name="pcre.recursion_limit" value="100000" />
             <configuration_option name="phar.cache_list" value="" />
             <configuration_option name="phar.readonly" value="1" />
             <configuration_option name="phar.require_hash" value="1" />
-            <configuration_option name="post_max_size" value="8M" />
+            <configuration_option name="post_max_size" value="25M" />
             <configuration_option name="precision" value="14" />
             <configuration_option name="realpath_cache_size" value="16K" />
             <configuration_option name="realpath_cache_ttl" value="120" />
@@ -177,16 +164,16 @@
             <configuration_option name="session.upload_progress.name" value="PHP_SESSION_UPLOAD_PROGRESS" />
             <configuration_option name="session.upload_progress.prefix" value="upload_progress_" />
             <configuration_option name="session.use_cookies" value="1" />
-            <configuration_option name="session.use_only_cookies" value="1" />
+            <configuration_option name="session.use_only_cookies" value="0" />
+            <configuration_option name="session.use_strict_mode" value="0" />
             <configuration_option name="session.use_trans_sid" value="0" />
             <configuration_option name="short_open_tag" value="" />
             <configuration_option name="smtp_port" value="25" />
             <configuration_option name="sql.safe_mode" value="" />
-            <configuration_option name="tidy.clean_output" value="" />
-            <configuration_option name="tidy.default_config" value="" />
-            <configuration_option name="track_errors" value="1" />
+            <configuration_option name="sys_temp_dir" value="" />
+            <configuration_option name="track_errors" value="" />
             <configuration_option name="unserialize_callback_func" value="" />
-            <configuration_option name="upload_max_filesize" value="2M" />
+            <configuration_option name="upload_max_filesize" value="25M" />
             <configuration_option name="upload_tmp_dir" value="" />
             <configuration_option name="url_rewriter.tags" value="a=href,area=href,frame=src,input=src,form=fakeentry" />
             <configuration_option name="user_agent" value="" />
@@ -225,17 +212,13 @@
             <extension name="iconv" />
             <extension name="json" />
             <extension name="libxml" />
-            <extension name="mbstring" />
             <extension name="mcrypt" />
             <extension name="mhash" />
-            <extension name="mongo" />
             <extension name="mysqlnd" />
             <extension name="odbc" />
-            <extension name="openssl" />
             <extension name="pcre" />
             <extension name="session" />
             <extension name="standard" />
-            <extension name="tidy" />
             <extension name="tokenizer" />
             <extension name="wddx" />
             <extension name="xml" />
