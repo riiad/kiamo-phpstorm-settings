@@ -11,12 +11,12 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="C:\Repository\kiamo\trunk\setup\kiamo_data\bin\Apache\PHP\php.exe" id="8f83aec6-a914-4ddd-995c-ec03d77bc330" name="PHP 5.4.45" debugger_id="php.debugger.XDebug" />
+      <interpreter home="C:\Repository\kiamo\trunk\setup\kiamo_data\bin\Apache\PHP\php.exe" id="8f83aec6-a914-4ddd-995c-ec03d77bc330" name="PHP 5.6.22" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
-      <interpreter name="PHP 5.4.45">
+      <interpreter name="PHP 5.6.22">
         <phpinfo binary_type="PHP" php_cgi="C:\Repository\kiamo\trunk\setup\kiamo_data\bin\Apache\PHP\php-cgi.exe" php_cli="C:\Repository\kiamo\trunk\setup\kiamo_data\bin\Apache\PHP\php.exe" path_separator=";" remote_host="127.0.0.1" version="5.6.22">
           <additional_php_ini />
           <configuration_file>C:\Repository\kiamo\trunk\setup\kiamo_data\bin\Apache\PHP\php.ini</configuration_file>
