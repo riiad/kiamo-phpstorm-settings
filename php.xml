@@ -11,12 +11,12 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="C:\Repository\kiamo\trunk\setup\kiamo_data\bin\Apache\PHP\php.exe" id="8f83aec6-a914-4ddd-995c-ec03d77bc330" name="PHP 5.6.22" debugger_id="php.debugger.XDebug" />
+      <interpreter home="C:\Repository\kiamo\trunk\setup\kiamo_data\bin\Apache\PHP\php.exe" id="8f83aec6-a914-4ddd-995c-ec03d77bc330" name="PHP 5.6.22 (trunk)" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
-      <interpreter name="PHP 5.6.22">
+      <interpreter name="PHP 5.6.22 (trunk)">
         <phpinfo binary_type="PHP" php_cgi="C:\Repository\kiamo\trunk\setup\kiamo_data\bin\Apache\PHP\php-cgi.exe" php_cli="C:\Repository\kiamo\trunk\setup\kiamo_data\bin\Apache\PHP\php.exe" path_separator=";" remote_host="127.0.0.1" version="5.6.22">
           <additional_php_ini />
           <configuration_file>C:\Repository\kiamo\trunk\setup\kiamo_data\bin\Apache\PHP\php.ini</configuration_file>
@@ -25,6 +25,25 @@
             <configuration_option name="allow_url_fopen" value="1" />
             <configuration_option name="allow_url_include" value="1" />
             <configuration_option name="always_populate_raw_post_data" value="0" />
+            <configuration_option name="apc.coredump_unmap" value="0" />
+            <configuration_option name="apc.enable_cli" value="0" />
+            <configuration_option name="apc.enabled" value="1" />
+            <configuration_option name="apc.entries_hint" value="4096" />
+            <configuration_option name="apc.gc_ttl" value="3600" />
+            <configuration_option name="apc.preload_path" value="" />
+            <configuration_option name="apc.rfc1867" value="0" />
+            <configuration_option name="apc.rfc1867_freq" value="0" />
+            <configuration_option name="apc.rfc1867_name" value="APC_UPLOAD_PROGRESS" />
+            <configuration_option name="apc.rfc1867_prefix" value="upload_" />
+            <configuration_option name="apc.rfc1867_ttl" value="3600" />
+            <configuration_option name="apc.serializer" value="php" />
+            <configuration_option name="apc.shm_segments" value="1" />
+            <configuration_option name="apc.shm_size" value="32M" />
+            <configuration_option name="apc.slam_defense" value="1" />
+            <configuration_option name="apc.smart" value="0" />
+            <configuration_option name="apc.ttl" value="0" />
+            <configuration_option name="apc.use_request_time" value="1" />
+            <configuration_option name="apc.writable" value="/tmp" />
             <configuration_option name="arg_separator.input" value="&amp;" />
             <configuration_option name="arg_separator.output" value="&amp;" />
             <configuration_option name="asp_tags" value="" />
@@ -62,11 +81,12 @@
             <configuration_option name="error_reporting" value="32767" />
             <configuration_option name="exit_on_timeout" value="0" />
             <configuration_option name="expose_php" value="1" />
-            <configuration_option name="extension_dir" value="%KIAMODIR%bin\Apache\PHP\ext" />
+            <configuration_option name="extension_dir" value=".\ext" />
             <configuration_option name="file_uploads" value="1" />
             <configuration_option name="filter.default" value="unsafe_raw" />
             <configuration_option name="filter.default_flags" value="" />
             <configuration_option name="from" value="" />
+            <configuration_option name="gd.jpeg_ignore_warning" value="0" />
             <configuration_option name="highlight.comment" value="#FF8000" />
             <configuration_option name="highlight.default" value="#0000BB" />
             <configuration_option name="highlight.html" value="#000000" />
@@ -83,6 +103,10 @@
             <configuration_option name="include_path" value=".;C:\php\pear" />
             <configuration_option name="input_encoding" value="" />
             <configuration_option name="internal_encoding" value="" />
+            <configuration_option name="intl.default_locale" value="" />
+            <configuration_option name="intl.error_level" value="0" />
+            <configuration_option name="intl.use_exceptions" value="0" />
+            <configuration_option name="ldap.max_links" value="-1" />
             <configuration_option name="log_errors" value="1" />
             <configuration_option name="log_errors_max_len" value="1024" />
             <configuration_option name="mail.add_x_header" value="1" />
@@ -93,9 +117,39 @@
             <configuration_option name="max_input_nesting_level" value="64" />
             <configuration_option name="max_input_time" value="-1" />
             <configuration_option name="max_input_vars" value="100000" />
+            <configuration_option name="mbstring.detect_order" value="" />
+            <configuration_option name="mbstring.encoding_translation" value="0" />
+            <configuration_option name="mbstring.func_overload" value="0" />
+            <configuration_option name="mbstring.http_input" value="" />
+            <configuration_option name="mbstring.http_output" value="" />
+            <configuration_option name="mbstring.http_output_conv_mimetypes" value="^(text/|application/xhtml\+xml)" />
+            <configuration_option name="mbstring.internal_encoding" value="" />
+            <configuration_option name="mbstring.language" value="Neutral" />
+            <configuration_option name="mbstring.strict_detection" value="0" />
+            <configuration_option name="mbstring.substitute_character" value="" />
             <configuration_option name="mcrypt.algorithms_dir" value="" />
             <configuration_option name="mcrypt.modes_dir" value="" />
             <configuration_option name="memory_limit" value="256M" />
+            <configuration_option name="mongo.allow_empty_keys" value="0" />
+            <configuration_option name="mongo.chunk_size" value="261120" />
+            <configuration_option name="mongo.cmd" value="$" />
+            <configuration_option name="mongo.default_host" value="localhost" />
+            <configuration_option name="mongo.default_port" value="27017" />
+            <configuration_option name="mongo.is_master_interval" value="15" />
+            <configuration_option name="mongo.long_as_object" value="0" />
+            <configuration_option name="mongo.native_long" value="0" />
+            <configuration_option name="mongo.ping_interval" value="5" />
+            <configuration_option name="mysqli.allow_local_infile" value="1" />
+            <configuration_option name="mysqli.allow_persistent" value="1" />
+            <configuration_option name="mysqli.default_host" value="" />
+            <configuration_option name="mysqli.default_port" value="3306" />
+            <configuration_option name="mysqli.default_pw" value="" />
+            <configuration_option name="mysqli.default_socket" value="" />
+            <configuration_option name="mysqli.default_user" value="" />
+            <configuration_option name="mysqli.max_links" value="-1" />
+            <configuration_option name="mysqli.max_persistent" value="-1" />
+            <configuration_option name="mysqli.reconnect" value="" />
+            <configuration_option name="mysqli.rollback_on_cached_plink" value="0" />
             <configuration_option name="mysqlnd.collect_memory_statistics" value="" />
             <configuration_option name="mysqlnd.collect_statistics" value="1" />
             <configuration_option name="mysqlnd.debug" value="" />
@@ -118,6 +172,8 @@
             <configuration_option name="odbc.max_links" value="-1" />
             <configuration_option name="odbc.max_persistent" value="-1" />
             <configuration_option name="open_basedir" value="" />
+            <configuration_option name="openssl.cafile" value="" />
+            <configuration_option name="openssl.capath" value="" />
             <configuration_option name="output_buffering" value="0" />
             <configuration_option name="output_encoding" value="" />
             <configuration_option name="output_handler" value="" />
@@ -171,6 +227,8 @@
             <configuration_option name="smtp_port" value="25" />
             <configuration_option name="sql.safe_mode" value="" />
             <configuration_option name="sys_temp_dir" value="" />
+            <configuration_option name="tidy.clean_output" value="" />
+            <configuration_option name="tidy.default_config" value="" />
             <configuration_option name="track_errors" value="" />
             <configuration_option name="unserialize_callback_func" value="" />
             <configuration_option name="upload_max_filesize" value="25M" />
@@ -200,25 +258,39 @@
             <extension name="Reflection" />
             <extension name="SPL" />
             <extension name="SimpleXML" />
+            <extension name="apc" />
+            <extension name="apcu" />
             <extension name="bcmath" />
             <extension name="calendar" />
             <extension name="ctype" />
             <extension name="date" />
             <extension name="dom" />
             <extension name="ereg" />
+            <extension name="fileinfo" />
             <extension name="filter" />
             <extension name="ftp" />
+            <extension name="gd" />
+            <extension name="gettext" />
             <extension name="hash" />
             <extension name="iconv" />
+            <extension name="intl" />
             <extension name="json" />
+            <extension name="ldap" />
             <extension name="libxml" />
+            <extension name="mbstring" />
             <extension name="mcrypt" />
             <extension name="mhash" />
+            <extension name="mongo" />
+            <extension name="mysqli" />
             <extension name="mysqlnd" />
             <extension name="odbc" />
+            <extension name="openssl" />
             <extension name="pcre" />
+            <extension name="pdo_mysql" />
             <extension name="session" />
+            <extension name="sockets" />
             <extension name="standard" />
+            <extension name="tidy" />
             <extension name="tokenizer" />
             <extension name="wddx" />
             <extension name="xml" />
