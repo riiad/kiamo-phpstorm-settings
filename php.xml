@@ -11,39 +11,20 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="C:\Repository\kiamo\trunk\setup\kiamo_data\bin\Apache\PHP\php.exe" id="8f83aec6-a914-4ddd-995c-ec03d77bc330" name="PHP 5.6.22 (trunk)" debugger_id="php.debugger.XDebug" />
+      <interpreter home="C:\Repository\kiamo\trunk\setup\kiamo_data\bin\third_packages\PHP5\php.exe" id="8f83aec6-a914-4ddd-995c-ec03d77bc330" name="PHP 5.6.22 (trunk)" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 5.6.22 (trunk)">
-        <phpinfo binary_type="PHP" php_cgi="C:\Repository\kiamo\trunk\setup\kiamo_data\bin\Apache\PHP\php-cgi.exe" php_cli="C:\Repository\kiamo\trunk\setup\kiamo_data\bin\Apache\PHP\php.exe" path_separator=";" remote_host="127.0.0.1" version="5.6.22">
+        <phpinfo binary_type="PHP" php_cgi="C:\Repository\kiamo\trunk\setup\kiamo_data\bin\third_packages\PHP5\php-cgi.exe" php_cli="C:\Repository\kiamo\trunk\setup\kiamo_data\bin\third_packages\PHP5\php.exe" path_separator=";" remote_host="127.0.0.1" version="5.6.24">
           <additional_php_ini />
-          <configuration_file>C:\Repository\kiamo\trunk\setup\kiamo_data\bin\Apache\PHP\php.ini</configuration_file>
+          <configuration_file>C:\Repository\kiamo\trunk\setup\kiamo_data\bin\third_packages\PHP5\php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
             <configuration_option name="allow_url_fopen" value="1" />
             <configuration_option name="allow_url_include" value="1" />
-            <configuration_option name="always_populate_raw_post_data" value="0" />
-            <configuration_option name="apc.coredump_unmap" value="0" />
-            <configuration_option name="apc.enable_cli" value="0" />
-            <configuration_option name="apc.enabled" value="1" />
-            <configuration_option name="apc.entries_hint" value="4096" />
-            <configuration_option name="apc.gc_ttl" value="3600" />
-            <configuration_option name="apc.preload_path" value="" />
-            <configuration_option name="apc.rfc1867" value="0" />
-            <configuration_option name="apc.rfc1867_freq" value="0" />
-            <configuration_option name="apc.rfc1867_name" value="APC_UPLOAD_PROGRESS" />
-            <configuration_option name="apc.rfc1867_prefix" value="upload_" />
-            <configuration_option name="apc.rfc1867_ttl" value="3600" />
-            <configuration_option name="apc.serializer" value="php" />
-            <configuration_option name="apc.shm_segments" value="1" />
-            <configuration_option name="apc.shm_size" value="32M" />
-            <configuration_option name="apc.slam_defense" value="1" />
-            <configuration_option name="apc.smart" value="0" />
-            <configuration_option name="apc.ttl" value="0" />
-            <configuration_option name="apc.use_request_time" value="1" />
-            <configuration_option name="apc.writable" value="/tmp" />
+            <configuration_option name="always_populate_raw_post_data" value="-1" />
             <configuration_option name="arg_separator.input" value="&amp;" />
             <configuration_option name="arg_separator.output" value="&amp;" />
             <configuration_option name="asp_tags" value="" />
@@ -258,8 +239,6 @@
             <extension name="Reflection" />
             <extension name="SPL" />
             <extension name="SimpleXML" />
-            <extension name="apc" />
-            <extension name="apcu" />
             <extension name="bcmath" />
             <extension name="calendar" />
             <extension name="ctype" />
