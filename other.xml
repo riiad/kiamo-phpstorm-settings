@@ -53,13 +53,15 @@
     <Redmine shared="false" url="http://redmine/redmine">
       <option name="APIKey" value="" />
       <option name="assignedToMe" value="false" />
-      <commitMessageFormat>{id} {summary} ({project})</commitMessageFormat>
-      <option name="currentProject" />
-      <password>dfc4dfcfdfdedfd9dfc9dfcbdfd8dfdedfcfdfd8</password>
+      <commitMessageFormat>{id} {summary}</commitMessageFormat>
+      <option name="currentProject">
+        <RedmineProject id="-1" identifier="-- from all projects --" />
+      </option>
+      <password>dfd8dfc3dfcbdfcedfc0dfdf</password>
       <option name="loginAnonymously" value="false" />
       <option name="preferredCloseTaskState" />
       <option name="preferredOpenTaskState" />
-      <option name="shouldFormatCommitMessage" value="true" />
+      <option name="shouldFormatCommitMessage" value="false" />
       <option name="useHttpAuthentication" value="true" />
       <option name="useProxy" value="false" />
       <username>rch</username>
