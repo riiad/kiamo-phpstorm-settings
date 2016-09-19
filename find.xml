@@ -27,10 +27,10 @@
       <mask>*.php, *.twig</mask>
       <mask>*.html</mask>
       <mask>*.js</mask>
-      <mask>*.less</mask>
       <mask>*.twig</mask>
       <mask>*.php</mask>
       <mask>*.yml</mask>
+      <mask>*.less</mask>
     </recentFileMasks>
   </component>
 </application>
