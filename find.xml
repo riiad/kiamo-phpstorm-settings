@@ -4,15 +4,14 @@
     <option name="customScope" value="Directory 'C:\Repository\kiamo\branches\release\5.5\setup\kiamo_data\web\pages'" />
     <option name="defaultScopeName" value="Directory 'C:\Repository\kiamo\branches\release\5.5\setup\kiamo_data\web\pages'" />
     <option name="localCaseSensitive" value="true" />
-    <option name="localWholeWordsOnly" value="true" />
     <option name="showResultsInSeparateView" value="true" />
     <option name="wholeWordsOnly" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
-    <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="Directory 'C:\Repository\kiamo\branches\release\5.5\setup\kiamo_data\web\pages'" />
+    <option name="FILE_MASK" value="*.less" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.jsp</mask>
