@@ -11,15 +11,15 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="C:\Repository\kiamo\trunk\setup\kiamo_data\bin\third_packages\PHP5\php.exe" id="8f83aec6-a914-4ddd-995c-ec03d77bc330" name="PHP 5.6.22 (trunk)" debugger_id="php.debugger.XDebug" />
+      <interpreter home="C:\Repository\kiamo\trunk\setup\kiamo_server\resources\bin\third_packages\PHP5\php.exe" id="8f83aec6-a914-4ddd-995c-ec03d77bc330" name="PHP 5.6.22 (trunk)" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 5.6.22 (trunk)">
-        <phpinfo binary_type="PHP" php_cgi="C:\Repository\kiamo\trunk\setup\kiamo_data\bin\third_packages\PHP5\php-cgi.exe" php_cli="C:\Repository\kiamo\trunk\setup\kiamo_data\bin\third_packages\PHP5\php.exe" path_separator=";" remote_host="127.0.0.1" version="5.6.24">
+        <phpinfo binary_type="PHP" php_cgi="C:\Repository\kiamo\trunk\setup\kiamo_server\resources\bin\third_packages\PHP5\php-cgi.exe" php_cli="C:\Repository\kiamo\trunk\setup\kiamo_server\resources\bin\third_packages\PHP5\php.exe" path_separator=";" version="5.6.24">
           <additional_php_ini />
-          <configuration_file>C:\Repository\kiamo\trunk\setup\kiamo_data\bin\third_packages\PHP5\php.ini</configuration_file>
+          <configuration_file>C:\Repository\kiamo\trunk\setup\kiamo_server\resources\bin\third_packages\PHP5\php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
             <configuration_option name="allow_url_fopen" value="1" />
