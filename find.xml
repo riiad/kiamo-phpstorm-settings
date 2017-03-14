@@ -9,6 +9,7 @@
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="FILE_MASK" value="*.less" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.jsp</mask>
@@ -27,8 +28,8 @@
       <mask>*.less,*.css</mask>
       <mask>*.twig</mask>
       <mask>*.php</mask>
-      <mask>*.less</mask>
       <mask>*.js</mask>
+      <mask>*.less</mask>
     </recentFileMasks>
   </component>
 </application>
