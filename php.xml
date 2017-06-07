@@ -18,7 +18,7 @@
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 5.6.24 (trunk)">
-        <phpinfo binary_type="PHP" php_cgi="C:\Conecteo\kiamo\trunk\setup\kiamo_server\resources\bin\third_packages\PHP5\php-cgi.exe" php_cli="C:\Conecteo\kiamo\trunk\setup\kiamo_server\resources\bin\third_packages\PHP5\php.exe" path_separator=";" version="5.6.24">
+        <phpinfo binary_type="PHP" php_cgi="C:\Conecteo\kiamo\trunk\setup\kiamo_server\resources\bin\third_packages\PHP5\php-cgi.exe" php_cli="C:\Conecteo\kiamo\trunk\setup\kiamo_server\resources\bin\third_packages\PHP5\php.exe" path_separator=";" version="5.6.30">
           <additional_php_ini />
           <configuration_file>C:\Conecteo\kiamo\trunk\setup\kiamo_server\resources\bin\third_packages\PHP5\php.ini</configuration_file>
           <configuration_options>
@@ -51,7 +51,7 @@
             <configuration_option name="default_socket_timeout" value="60" />
             <configuration_option name="disable_classes" value="" />
             <configuration_option name="disable_functions" value="" />
-            <configuration_option name="display_errors" value="1" />
+            <configuration_option name="display_errors" value="" />
             <configuration_option name="display_startup_errors" value="" />
             <configuration_option name="doc_root" value="" />
             <configuration_option name="docref_ext" value="" />
@@ -63,7 +63,7 @@
             <configuration_option name="error_prepend_string" value="" />
             <configuration_option name="error_reporting" value="32767" />
             <configuration_option name="exit_on_timeout" value="0" />
-            <configuration_option name="expose_php" value="1" />
+            <configuration_option name="expose_php" value="" />
             <configuration_option name="extension_dir" value=".\ext" />
             <configuration_option name="file_uploads" value="1" />
             <configuration_option name="filter.default" value="unsafe_raw" />
@@ -95,6 +95,7 @@
             <configuration_option name="mail.add_x_header" value="1" />
             <configuration_option name="mail.force_extra_parameters" value="" />
             <configuration_option name="mail.log" value="" />
+            <configuration_option name="mailparse.def_charset" value="us-ascii" />
             <configuration_option name="max_execution_time" value="0" />
             <configuration_option name="max_file_uploads" value="20" />
             <configuration_option name="max_input_nesting_level" value="64" />
@@ -122,6 +123,7 @@
             <configuration_option name="mongo.long_as_object" value="0" />
             <configuration_option name="mongo.native_long" value="0" />
             <configuration_option name="mongo.ping_interval" value="5" />
+            <configuration_option name="mongodb.debug" value="" />
             <configuration_option name="mysqli.allow_local_infile" value="1" />
             <configuration_option name="mysqli.allow_persistent" value="1" />
             <configuration_option name="mysqli.default_host" value="" />
@@ -162,13 +164,15 @@
             <configuration_option name="output_handler" value="" />
             <configuration_option name="pcre.backtrack_limit" value="1000000" />
             <configuration_option name="pcre.recursion_limit" value="100000" />
+            <configuration_option name="pdo_sqlsrv.client_buffer_max_kb_size" value="10240" />
+            <configuration_option name="pdo_sqlsrv.log_severity" value="0" />
             <configuration_option name="phar.cache_list" value="" />
             <configuration_option name="phar.readonly" value="1" />
             <configuration_option name="phar.require_hash" value="1" />
             <configuration_option name="post_max_size" value="25M" />
             <configuration_option name="precision" value="14" />
-            <configuration_option name="realpath_cache_size" value="16K" />
-            <configuration_option name="realpath_cache_ttl" value="120" />
+            <configuration_option name="realpath_cache_size" value="4096K" />
+            <configuration_option name="realpath_cache_ttl" value="600" />
             <configuration_option name="register_argc_argv" value="1" />
             <configuration_option name="report_memleaks" value="1" />
             <configuration_option name="report_zend_debug" value="0" />
@@ -209,6 +213,10 @@
             <configuration_option name="short_open_tag" value="" />
             <configuration_option name="smtp_port" value="25" />
             <configuration_option name="sql.safe_mode" value="" />
+            <configuration_option name="sqlsrv.ClientBufferMaxKBSize" value="10240" />
+            <configuration_option name="sqlsrv.LogSeverity" value="0" />
+            <configuration_option name="sqlsrv.LogSubsystems" value="0" />
+            <configuration_option name="sqlsrv.WarningsReturnAsErrors" value="1" />
             <configuration_option name="sys_temp_dir" value="" />
             <configuration_option name="tidy.clean_output" value="" />
             <configuration_option name="tidy.default_config" value="" />
@@ -259,18 +267,22 @@
             <extension name="json" />
             <extension name="ldap" />
             <extension name="libxml" />
+            <extension name="mailparse" />
             <extension name="mbstring" />
             <extension name="mcrypt" />
             <extension name="mhash" />
             <extension name="mongo" />
+            <extension name="mongodb" />
             <extension name="mysqli" />
             <extension name="mysqlnd" />
             <extension name="odbc" />
             <extension name="openssl" />
             <extension name="pcre" />
             <extension name="pdo_mysql" />
+            <extension name="pdo_sqlsrv" />
             <extension name="session" />
             <extension name="sockets" />
+            <extension name="sqlsrv" />
             <extension name="standard" />
             <extension name="tidy" />
             <extension name="tokenizer" />
