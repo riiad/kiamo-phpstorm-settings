@@ -9,11 +9,8 @@
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="popup*Save.php" />
     <recentFileMasks>
-      <mask>*.properties</mask>
-      <mask>*.jsp</mask>
-      <mask>*.xml</mask>
-      <mask>*.java</mask>
       <mask>*.as</mask>
       <mask>*.css</mask>
       <mask>*.mxml</mask>
@@ -29,6 +26,21 @@
       <mask>*.less</mask>
       <mask>*.js</mask>
       <mask>*.php</mask>
+      <mask>*.ph</mask>
+      <mask>.ph</mask>
+      <mask>pi.ph</mask>
+      <mask>p.ph</mask>
+      <mask>pop.ph</mask>
+      <mask>popup.ph</mask>
+      <mask>popup*.ph</mask>
+      <mask>popup*Con.ph</mask>
+      <mask>popup*Co.ph</mask>
+      <mask>popup*C.ph</mask>
+      <mask>popup*CS.ph</mask>
+      <mask>popup*CSa.ph</mask>
+      <mask>popup*CSave.ph</mask>
+      <mask>popup*Save.ph</mask>
+      <mask>popup*Save.php</mask>
     </recentFileMasks>
   </component>
 </application>
