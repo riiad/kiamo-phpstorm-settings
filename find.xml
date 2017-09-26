@@ -3,15 +3,18 @@
     <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="localCaseSensitive" value="true" />
+    <option name="localWholeWordsOnly" value="true" />
     <option name="showResultsInSeparateView" value="true" />
     <option name="wholeWordsOnly" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
+    <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="popup*Save.php" />
+    <option name="FILE_MASK" value="*.php" />
     <recentFileMasks>
-      <mask>*.as</mask>
       <mask>*.css</mask>
       <mask>*.mxml</mask>
       <mask>*.php,*.yml</mask>
@@ -25,7 +28,6 @@
       <mask>*.twig</mask>
       <mask>*.less</mask>
       <mask>*.js</mask>
-      <mask>*.php</mask>
       <mask>*.ph</mask>
       <mask>.ph</mask>
       <mask>pi.ph</mask>
@@ -41,6 +43,8 @@
       <mask>popup*CSave.ph</mask>
       <mask>popup*Save.ph</mask>
       <mask>popup*Save.php</mask>
+      <mask>.php</mask>
+      <mask>*.php</mask>
     </recentFileMasks>
   </component>
 </application>
