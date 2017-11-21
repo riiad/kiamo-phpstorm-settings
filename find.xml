@@ -1,24 +1,16 @@
 <application>
   <component name="FindSettings">
-    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="localCaseSensitive" value="true" />
     <option name="localWholeWordsOnly" value="true" />
     <option name="showResultsInSeparateView" value="true" />
-    <option name="wholeWordsOnly" value="true" />
-    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="bootstrap_3_layout.twig" />
     <recentFileMasks>
-      <mask>*.php,*.yml</mask>
-      <mask>*.php, *.html, *.js</mask>
-      <mask>*.php, *.js, *.twig</mask>
-      <mask>*.php, *.yml</mask>
-      <mask>*.php, *.twig</mask>
       <mask>*.html</mask>
       <mask>*.yml</mask>
       <mask>*.less,*.css</mask>
@@ -44,6 +36,11 @@
       <mask>*.php</mask>
       <mask>*.e</mask>
       <mask>*.ejs</mask>
+      <mask>bootstrap_3_layout</mask>
+      <mask>bootstrap_3_layout.</mask>
+      <mask>bootstrap_3_layout.t</mask>
+      <mask>bootstrap_3_layout.tw</mask>
+      <mask>bootstrap_3_layout.twig</mask>
     </recentFileMasks>
   </component>
 </application>
