@@ -10,9 +10,6 @@
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <recentFileMasks>
-      <mask>*.twig</mask>
-      <mask>*.js</mask>
-      <mask>*.ph</mask>
       <mask>.ph</mask>
       <mask>pi.ph</mask>
       <mask>p.ph</mask>
@@ -40,6 +37,9 @@
       <mask>*.le</mask>
       <mask>*.les</mask>
       <mask>*.less</mask>
+      <mask>*.tw</mask>
+      <mask>*.twi</mask>
+      <mask>*.twig</mask>
     </recentFileMasks>
   </component>
 </application>
