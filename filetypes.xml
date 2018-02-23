@@ -7,6 +7,7 @@
       <removed_mapping pattern=".jshintignore" type="JSHint file" />
       <mapping pattern="base-menu-view" type="JavaScript" />
       <mapping pattern=".bowerrc" type="PLAIN_TEXT" />
+      <mapping pattern=".env.sample" type="PLAIN_TEXT" />
       <mapping ext="rst" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
