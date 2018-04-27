@@ -12,16 +12,16 @@
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter home="C:\Conecteo\kiamo\trunk\setup\kiamo_server\resources\bin\third_packages\PHP7\php.exe" id="8f83aec6-a914-4ddd-995c-ec03d77bc330" name="PHP 7.1 (trunk)" debugger_id="php.debugger.XDebug" />
-      <interpreter home="C:\Conecteo\kiamo\branches\release\5.5\setup\kiamo_data\bin\Apache\PHP\php.exe" id="99948c64-7863-4772-90d3-95285d47f3e8" name="PHP 5.4.45 (5.5)" debugger_id="php.debugger.XDebug" />
-      <interpreter home="C:\Conecteo\kiamo\branches\release\6.1\setup\kiamo_server\resources\bin\third_packages\PHP5\php.exe" id="cf80976d-686c-479d-9dcd-79a027a36e42" name="PHP 5.6" debugger_id="php.debugger.XDebug" />
+      <interpreter home="C:\Conecteo\kiamo\tags\5.5\setup\kiamo_data\bin\Apache\PHP\php.exe" id="99948c64-7863-4772-90d3-95285d47f3e8" name="PHP 5.4.45 (5.5)" debugger_id="php.debugger.XDebug" />
+      <interpreter home="C:\Conecteo\kiamo\tags\6.1\setup\kiamo_server\resources\bin\third_packages\PHP5\php.exe" id="cf80976d-686c-479d-9dcd-79a027a36e42" name="PHP 5.6" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 5.4.45 (5.5)">
-        <phpinfo binary_type="PHP" php_cgi="C:\Conecteo\kiamo\branches\release\5.5\setup\kiamo_data\bin\Apache\PHP\php-cgi.exe" php_cli="C:\Conecteo\kiamo\branches\release\5.5\setup\kiamo_data\bin\Apache\PHP\php.exe" path_separator=";" version="5.4.45">
+        <phpinfo binary_type="PHP" php_cgi="C:\Conecteo\kiamo\tags\5.5\setup\kiamo_data\bin\Apache\PHP\php-cgi.exe" php_cli="C:\Conecteo\kiamo\tags\5.5\setup\kiamo_data\bin\Apache\PHP\php.exe" path_separator=";" version="5.4.45">
           <additional_php_ini />
-          <configuration_file>C:\Conecteo\kiamo\branches\release\5.5\setup\kiamo_data\bin\Apache\PHP\php.ini</configuration_file>
+          <configuration_file>C:\Conecteo\kiamo\tags\5.5\setup\kiamo_data\bin\Apache\PHP\php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
             <configuration_option name="allow_url_fopen" value="1" />
@@ -317,9 +317,9 @@
         </phpinfo>
       </interpreter>
       <interpreter name="PHP 5.6">
-        <phpinfo binary_type="PHP" php_cgi="C:\Conecteo\kiamo\branches\release\6.1\setup\kiamo_server\resources\bin\third_packages\PHP5\php-cgi.exe" php_cli="C:\Conecteo\kiamo\branches\release\6.1\setup\kiamo_server\resources\bin\third_packages\PHP5\php.exe" path_separator=";" version="5.6.31">
+        <phpinfo binary_type="PHP" php_cgi="C:\Conecteo\kiamo\tags\6.1\setup\kiamo_server\resources\bin\third_packages\PHP5\php-cgi.exe" php_cli="C:\Conecteo\kiamo\tags\6.1\setup\kiamo_server\resources\bin\third_packages\PHP5\php.exe" path_separator=";" version="5.6.31">
           <additional_php_ini />
-          <configuration_file>C:\Conecteo\kiamo\branches\release\6.1\setup\kiamo_server\resources\bin\third_packages\PHP5\php.ini</configuration_file>
+          <configuration_file>C:\Conecteo\kiamo\tags\6.1\setup\kiamo_server\resources\bin\third_packages\PHP5\php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
             <configuration_option name="allow_url_fopen" value="1" />
