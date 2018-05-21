@@ -3,11 +3,9 @@
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
       <mapping pattern=".editorconfig" type="Ini" />
-      <mapping pattern=".jshintignore" type="JSHint" />
-      <removed_mapping pattern=".jshintignore" type="JSHint file" />
       <mapping pattern="base-menu-view" type="JavaScript" />
-      <mapping pattern=".bowerrc" type="PLAIN_TEXT" />
       <mapping pattern=".env.sample" type="PLAIN_TEXT" />
+      <mapping pattern=".bowerrc" type="PLAIN_TEXT" />
       <mapping ext="rst" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
