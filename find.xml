@@ -3,43 +3,15 @@
     <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="localCaseSensitive" value="true" />
+    <option name="localWholeWordsOnly" value="true" />
     <option name="showResultsInSeparateView" value="true" />
     <option name="wholeWordsOnly" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
+    <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <recentFileMasks>
-      <mask>pi.ph</mask>
-      <mask>p.ph</mask>
-      <mask>pop.ph</mask>
-      <mask>popup.ph</mask>
-      <mask>popup*.ph</mask>
-      <mask>popup*Con.ph</mask>
-      <mask>popup*Co.ph</mask>
-      <mask>popup*C.ph</mask>
-      <mask>popup*CS.ph</mask>
-      <mask>popup*CSa.ph</mask>
-      <mask>popup*CSave.ph</mask>
-      <mask>popup*Save.ph</mask>
-      <mask>popup*Save.php</mask>
-      <mask>*.e</mask>
-      <mask>*.ejs</mask>
-      <mask>bootstrap_3_layout</mask>
-      <mask>bootstrap_3_layout.</mask>
-      <mask>bootstrap_3_layout.t</mask>
-      <mask>bootstrap_3_layout.tw</mask>
-      <mask>bootstrap_3_layout.twig</mask>
-      <mask>.</mask>
-      <mask>.php</mask>
-      <mask>*.le</mask>
-      <mask>*.les</mask>
-      <mask>*.less</mask>
-      <mask>*.tw</mask>
-      <mask>*.twi</mask>
-      <mask>*.php</mask>
-      <mask>*.twig</mask>
-      <mask>*.js</mask>
-    </recentFileMasks>
   </component>
 </application>
