@@ -4,8 +4,11 @@
     <extensionMap>
       <mapping pattern=".editorconfig" type="Ini" />
       <mapping pattern="base-menu-view" type="JavaScript" />
+      <mapping pattern="known_hosts" type="PLAIN_TEXT" />
       <mapping pattern=".env.sample" type="PLAIN_TEXT" />
+      <mapping pattern="id_rsa" type="PLAIN_TEXT" />
       <mapping pattern=".bowerrc" type="PLAIN_TEXT" />
+      <mapping ext="pub" type="PLAIN_TEXT" />
       <mapping ext="rst" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
