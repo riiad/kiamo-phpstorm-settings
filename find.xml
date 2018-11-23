@@ -22,5 +22,6 @@
     <mask>*.php</mask>
     <mask>*.html</mask>
     <mask>*.less</mask>
+    <mask>*.php,*.twig</mask>
   </component>
 </application>
