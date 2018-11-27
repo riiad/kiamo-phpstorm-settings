@@ -1,7 +1,11 @@
 <application>
+  <component name="MessDetector">
+    <phpmd_settings_migrated />
+  </component>
   <component name="PhpCodeSniffer">
+    <phpcs_settings_migrated />
     <phpcs_settings>
-      <PhpCSConfiguration tool_path="C:\Users\tfa\Documents\intranet-edc\vendor\bin\phpcs" />
+      <PhpCSConfiguration tool_path="C:/Users/tfa/Documents/intranet-edc/vendor/bin/phpcs" />
     </phpcs_settings>
   </component>
   <component name="PhpInterpreters">
