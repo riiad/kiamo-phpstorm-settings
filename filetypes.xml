@@ -1,16 +1,24 @@
 <application>
   <component name="FileTypeManager" version="17">
-    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
-      <mapping pattern=".editorconfig" type="Ini" />
-      <mapping pattern="base-menu-view" type="JavaScript" />
-      <mapping pattern="composer" type="PLAIN_TEXT" />
-      <mapping pattern="known_hosts" type="PLAIN_TEXT" />
-      <mapping pattern=".env.sample" type="PLAIN_TEXT" />
-      <mapping pattern="id_rsa" type="PLAIN_TEXT" />
-      <mapping pattern=".bowerrc" type="PLAIN_TEXT" />
-      <mapping ext="pub" type="PLAIN_TEXT" />
-      <mapping ext="rst" type="PLAIN_TEXT" />
+      <mapping pattern="api" type="PHP" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern=".bashrc" type="PLAIN_TEXT" />
+      <mapping pattern="toto" type="PLAIN_TEXT" />
+      <mapping pattern="sess_tuepkrcl23konj2a212eavjooj" type="PLAIN_TEXT" />
+      <mapping ext="lic" type="PLAIN_TEXT" />
+      <mapping ext="myi" type="PLAIN_TEXT" />
+      <mapping ext="wt" type="PLAIN_TEXT" />
+      <mapping ext="old" type="PLAIN_TEXT" />
+      <mapping ext="log___jb_old___" type="PLAIN_TEXT" />
+      <mapping ext="bson" type="PLAIN_TEXT" />
+      <mapping ext="0000000003" type="PLAIN_TEXT" />
+      <mapping ext="lock" type="PLAIN_TEXT" />
+      <mapping ext="types" type="PLAIN_TEXT" />
+      <mapping ext="0000000002" type="PLAIN_TEXT" />
+      <mapping ext="py" type="PLAIN_TEXT" />
+      <mapping ext="out" type="PLAIN_TEXT" />
+      <mapping ext="cnf" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>

@@ -15,7 +15,7 @@
     </driver>
     <driver id="oracle">
       <artifact name="Oracle" use="true" />
-      <option name="auto-sync" value="false" />
+      <option name="auto-sync" value="true" />
       <option name="auto-commit" value="false" />
     </driver>
     <driver id="derby.embedded">
@@ -24,11 +24,11 @@
     </driver>
     <driver id="sybase.jtds">
       <artifact name="jTDS (SQL Server and Sybase)" use="true" />
-      <option name="auto-sync" value="false" />
+      <option name="auto-sync" value="true" />
     </driver>
     <driver id="sqlserver.jtds">
       <artifact name="jTDS (SQL Server and Sybase)" use="true" />
-      <option name="auto-sync" value="false" />
+      <option name="auto-sync" value="true" />
     </driver>
     <driver id="hsqldb.local">
       <artifact name="HSQLDB" use="true" />
@@ -43,13 +43,11 @@
       <option name="auto-sync" value="true" />
     </driver>
     <driver id="sqlite.xerial">
-      <artifact name="Xerial SQLiteJDBC" use="true" version="3.16.1" />
+      <artifact name="Xerial SQLiteJDBC" use="true" />
       <option name="auto-sync" value="true" />
-      <option name="auto-commit" value="true" />
-      <option name="send-app-info" value="true" />
     </driver>
     <driver id="sybase.ase">
-      <option name="auto-sync" value="false" />
+      <option name="auto-sync" value="true" />
     </driver>
     <driver id="postgresql">
       <artifact name="PostgreSQL" use="true" />
@@ -67,7 +65,7 @@
     </driver>
     <driver id="sqlserver.ms">
       <artifact name="SQL Server" use="true" />
-      <option name="auto-sync" value="false" />
+      <option name="auto-sync" value="true" />
       <option name="send-app-info" value="false" />
     </driver>
     <driver id="db2.jtopen">
@@ -80,12 +78,6 @@
       <option name="auto-commit" value="true" />
       <option name="send-app-info" value="true" />
       <option name="schema-control" value="AUTOMATIC" />
-      <library>
-        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/mysql-connector-java-5.1.35-bin.jar</url>
-      </library>
-      <library>
-        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/mysql-connector-license.txt</url>
-      </library>
     </driver>
     <driver id="hsqldb.remote">
       <artifact name="HSQLDB" use="true" />

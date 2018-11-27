@@ -1,0 +1,18 @@
+<templateSet group="user">
+  <template name="tz" value="    $em = ORM::getInstance()-&gt;em();&#10;&#10;    /** @var \Kiamo\Entity\Repository\Resources\AgentRepository $agentRepository */&#10;    $agentRepository = $em-&gt;getRepository(\Kiamo\Entity\Resources\Agent::class);&#10;&#10;    /** @var \Kiamo\Entity\Repository\Admin\Settings\TimezoneRepository $timezoneRepository */&#10;    $timezoneRepository = $em-&gt;getRepository(\Kiamo\Entity\Admin\Settings\Timezone::class);&#10;&#10;    /** @var \Kiamo\Entity\Repository\User\UserRepository $userRepository */&#10;    $userRepository = $em-&gt;getRepository(Kiamo\Entity\User\User::class);&#10;&#10;    $timezoneService = new TimezoneService($agentRepository, $timezoneRepository, $userRepository);" description="Instantiate  TimezoneService" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="dd" value="dump($var$);exit;" description="Dump and exit" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="test" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="try" value="try {&#10;&#10;} catch(\Exception $e) {&#10;    dump($e-&gt;getMessage());exit;&#10;}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
