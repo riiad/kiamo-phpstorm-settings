@@ -4,7 +4,6 @@
     <variable name="VALUE" expression="" defaultValue="&quot;'value'&quot;" alwaysStopAt="true" />
     <variable name="MINUTES" expression="" defaultValue="&quot;1440&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -16,7 +15,6 @@
     <variable name="VALUE" expression="" defaultValue="&quot;'value'&quot;" alwaysStopAt="true" />
     <variable name="MINUTES" expression="" defaultValue="&quot;1440&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -27,7 +25,6 @@
     <variable name="KEY" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
     <variable name="VALUE" expression="" defaultValue="&quot;'value'&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -37,7 +34,6 @@
   <template name="Cache::has" value="if (Cache::has('$KEY$'))&#10;{&#10;&#9;$END$&#10;}" description="Check for existence in Cache" toReformat="true" toShortenFQNames="true">
     <variable name="KEY" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -48,7 +44,6 @@
     <variable name="KEY" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
     <variable name="DEFAULT" expression="" defaultValue="&quot;, 'default'&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -59,7 +54,6 @@
     <variable name="KEY" expression="" defaultValue="&quot;users&quot;" alwaysStopAt="true" />
     <variable name="MINUTES" expression="" defaultValue="&quot;1440&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -69,7 +63,6 @@
   <template name="Cache::rememberForever" value="Cache::rememberForever('$KEY$', function()&#10;{&#10;    $END$&#10;});" description="Retrieve item or Store a default value permanently" toReformat="true" toShortenFQNames="true">
     <variable name="KEY" expression="" defaultValue="&quot;users&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -79,7 +72,6 @@
   <template name="Cache::forget" value="Cache::forget('$KEY$');$END$" description="Remove an Item from the Cache" toReformat="true" toShortenFQNames="true">
     <variable name="KEY" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -89,7 +81,6 @@
   <template name="Cache::increment" value="Cache::increment('$KEY$');" description="Increment a Cached value" toReformat="true" toShortenFQNames="true">
     <variable name="KEY" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -99,7 +90,6 @@
   <template name="Cache::decrement" value="Cache::decrement('$KEY$');" description="Decrement a Cached value" toReformat="true" toShortenFQNames="true">
     <variable name="KEY" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />

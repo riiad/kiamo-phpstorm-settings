@@ -2,7 +2,6 @@
   <template name="$table-&gt;bigIncrements" value="$table-&gt;bigIncrements('$START$');$END$" description="Incrementing ID using a &quot;big integer&quot; equivalent." toReformat="false" toShortenFQNames="true">
     <variable name="START" expression="" defaultValue="&quot;id&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -10,7 +9,6 @@
   <template name="$table-&gt;bigInteger" value="$table-&gt;bigInteger('$NAME$');$END$" description="BIGINT equivalent to the table" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;votes&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -18,7 +16,6 @@
   <template name="$table-&gt;increments" value="$table-&gt;increments('$START$');$END$" description="Incrementing ID" toReformat="false" toShortenFQNames="true">
     <variable name="START" expression="" defaultValue="&quot;id&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -27,7 +24,6 @@
     <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
     <variable name="LENGTH" expression="" defaultValue="&quot;, 100&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -35,7 +31,6 @@
   <template name="$table-&gt;binary" value="$table-&gt;binary('$NAME$');$END$" description="BLOB equivalent to the table" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -43,7 +38,6 @@
   <template name="$table-&gt;boolean" value="$table-&gt;boolean('$NAME$');$END$" description="BOOLEAN equivalent to the table" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -51,7 +45,6 @@
   <template name="$table-&gt;date" value="$table-&gt;date('$NAME$');$END$" description="DATE equivalent to the table" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;created_at&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -59,7 +52,6 @@
   <template name="$table-&gt;dateTime" value="$table-&gt;dateTime('$NAME$');$END$" description="DATETIME equivalent to the table" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;created_at&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -69,7 +61,6 @@
     <variable name="PRECISION" expression="" defaultValue="&quot;5&quot;" alwaysStopAt="true" />
     <variable name="SCALE" expression="" defaultValue="&quot;2&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -79,7 +70,6 @@
     <variable name="PRECISION" expression="" defaultValue="&quot;15&quot;" alwaysStopAt="true" />
     <variable name="SCALE" expression="" defaultValue="&quot;8&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -89,7 +79,6 @@
     <variable name="FOO" expression="" defaultValue="&quot;foo&quot;" alwaysStopAt="true" />
     <variable name="BAR" expression="" defaultValue="&quot;bar&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -97,7 +86,6 @@
   <template name="$table-&gt;float" value="$table-&gt;float('$NAME$');$END$" description="FLOAT equivalent to the table" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;amount&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -105,7 +93,6 @@
   <template name="$table-&gt;integer" value="$table-&gt;integer('$NAME$');$END$" description="INTEGER equivalent to the table" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;votes&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -113,7 +100,6 @@
   <template name="$table-&gt;longText" value="$table-&gt;longText('$NAME$');$END$" description="LONGTEXT equivalent to the table" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -121,7 +107,6 @@
   <template name="$table-&gt;mediumText" value="$table-&gt;mediumText('$NAME$');$END$" description="MEDIUMTEXT equivalent to the table" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -129,7 +114,6 @@
   <template name="$table-&gt;morphs" value="$table-&gt;morphs('$NAME$');$END$" description="Adds INTEGER taggable_id and STRING taggable_type" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;taggable&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -137,7 +121,6 @@
   <template name="$table-&gt;smallInteger" value="$table-&gt;smallInteger('$NAME$');$END$" description="SMALLINT equivalent to the table" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;votes&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -145,14 +128,12 @@
   <template name="$table-&gt;tinyInteger" value="$table-&gt;tinyInteger('$NAME$');$END$" description="TINYINT equivalent to the table" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;numbers&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
   </template>
   <template name="$table-&gt;softDeletes" value="$table-&gt;softDeletes();$END$" description="Adds deleted_at column for soft deletes" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -160,7 +141,6 @@
   <template name="$table-&gt;text" value="$table-&gt;text('$NAME$');$END$" description="TEXT equivalent to the table" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -168,7 +148,6 @@
   <template name="$table-&gt;time" value="$table-&gt;time('$NAME$');$END$" description="TIME equivalent to the table" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;sunrise&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -176,14 +155,12 @@
   <template name="$table-&gt;timestamp" value="$table-&gt;timestamp('$NAME$');$END$" description="TIMESTAMP equivalent to the table" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;added_on&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
   </template>
   <template name="$table-&gt;timestamps" value="$table-&gt;timestamps();$END$" description="Adds created_at and updated_at columns" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -191,7 +168,6 @@
   <template name="$table-&gt;primary" value="$table-&gt;primary($NAME$);$END$" description="Add a primary or array of composite keys" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;'name' OR ['first','last']&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -199,7 +175,6 @@
   <template name="$table-&gt;unique" value="$table-&gt;unique('$NAME$');$END$" description="Add a unique index" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;email&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -207,14 +182,12 @@
   <template name="$table-&gt;index" value="$table-&gt;index('$NAME$');$END$" description="Adding a basic index" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;state&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
   </template>
   <template name="nullable" value="-&gt;nullable();$END$" description="Designate that the column allows NULL values" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -222,14 +195,12 @@
   <template name="default" value="-&gt;default('$VALUE$');$END$" description="Declare a default value for a column" toReformat="false" toShortenFQNames="true">
     <variable name="VALUE" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
   </template>
   <template name="unsigned" value="-&gt;unsigned();$END$" description="Set INTEGER to UNSIGNED" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -237,7 +208,6 @@
   <template name="after" value="-&gt;after('$NAME$');$END$" description="Add Column AFTER" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="'column'" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -245,7 +215,6 @@
   <template name="Schema::create" value="Schema::create('$NAME$', function($table)&#10;{&#10;    $table-&gt;increments('id');&#10;    $END$&#10;});" description="Create new table" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;users&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -254,7 +223,6 @@
     <variable name="FROM" expression="" defaultValue="&quot;from&quot;" alwaysStopAt="true" />
     <variable name="TO" expression="" defaultValue="&quot;to&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -264,7 +232,6 @@
     <variable name="OP" expression="" defaultValue="&quot;create&quot;" alwaysStopAt="true" />
     <variable name="NAME" expression="" defaultValue="&quot;users&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -272,7 +239,6 @@
   <template name="Schema::table" value="Schema::table('$NAME$', function($table)&#10;{&#10;    $END$&#10;});" description="Update an existing table" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;users&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -281,7 +247,6 @@
     <variable name="FROM" expression="" defaultValue="&quot;from&quot;" alwaysStopAt="true" />
     <variable name="TO" expression="" defaultValue="&quot;to&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -290,7 +255,6 @@
     <variable name="NAME" expression="" defaultValue="&quot;votes&quot;" alwaysStopAt="true" />
     <variable name="OTHER" expression="" defaultValue="&quot;, 'other', 'columns'&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -298,7 +262,6 @@
   <template name="Schema::hasTable" value="if (Schema::hasTable('$NAME$'))&#10;{&#10;    $END$&#10;}" description="Check for existence of table" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;users&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -307,7 +270,6 @@
     <variable name="NAME" expression="" defaultValue="&quot;users&quot;" alwaysStopAt="true" />
     <variable name="OTHER" expression="" defaultValue="&quot;, 'email'&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -315,7 +277,6 @@
   <template name="$table-&gt;engine" value="$table-&gt;engine = '$ENGINE$';$END$" description="Set the storage engine for a table" toReformat="false" toShortenFQNames="true">
     <variable name="ENGINE" expression="" defaultValue="&quot;InnoDB&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -325,7 +286,6 @@
     <variable name="PRIMARY" expression="" defaultValue="&quot;id&quot;" alwaysStopAt="true" />
     <variable name="NAME" expression="" defaultValue="&quot;users&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -334,7 +294,6 @@
     <variable name="NAME" expression="" defaultValue="&quot;posts_user_id_foreign&quot;" alwaysStopAt="true" />
     <variable name="COMMENT" expression="" defaultValue="&quot; // Drop foreign key 'user_id' from 'posts' table&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -343,7 +302,6 @@
     <variable name="NAME" expression="" defaultValue="&quot;users_email_unique&quot;" alwaysStopAt="true" />
     <variable name="COMMENT" expression="" defaultValue="&quot; // Drop unique index in 'email' from 'users' table&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -352,7 +310,6 @@
     <variable name="NAME" expression="" defaultValue="&quot;geo_state_index&quot;" alwaysStopAt="true" />
     <variable name="COMMENT" expression="" defaultValue="&quot; // Drop basic index in 'state' from 'geo' table&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -361,7 +318,6 @@
     <variable name="NAME" expression="" defaultValue="&quot;users_id_primary&quot;" alwaysStopAt="true" />
     <variable name="COMMENT" expression="" defaultValue="&quot; // Drop primary key 'id' from 'users' table&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
